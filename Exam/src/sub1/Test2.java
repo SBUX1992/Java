@@ -1,4 +1,4 @@
-package exam;
+package sub1;
 import java.util.Scanner;
 /*
  * 날짜 : 2022/08/19
