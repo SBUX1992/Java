@@ -61,7 +61,7 @@ public class TransactionTest {
 			psmt1.close();
 			psmt2.close();
 			conn.close();
-			
+			sc.close();
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
