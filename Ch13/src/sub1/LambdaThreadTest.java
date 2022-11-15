@@ -22,7 +22,7 @@ public class LambdaThreadTest {
 	};
 	
 	public static void main(String[] args) {
-		Thread t = new Thread(r);
+		Thread t = new Thread();
 		t.start();
 		
 		for(int i=1; i<=10; i++) {
