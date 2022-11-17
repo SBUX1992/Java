@@ -6,6 +6,7 @@ package ch03;
  */
 public class OperationEx3 {
 	public static void main(String[] args) {
+		
 		int num1 = 10;
 		int i = 2;
 		
@@ -34,6 +35,14 @@ public class OperationEx3 {
 		
 		num1 = num1 + 5;
 		num1 = num1 * num2;
+		
+		int fatherAge = 45;
+		int motherAge = 47;
+		
+		char ch;
+		ch = (fatherAge > motherAge) ? 'T' : 'F';
+		
+		System.out.println(ch);
 		
 	}
 }
